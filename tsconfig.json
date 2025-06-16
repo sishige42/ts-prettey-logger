@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    /* --- プロジェクトの基本設定 --- */
+    "target": "ES2022",
+    "module": "NodeNext",
+
+    /* --- 出力設定 --- */
+    "outDir": "./dist",
+
+    /* --- 型チェックの厳格さ --- */
+    "strict": true,
+    "esModuleInterop": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}
